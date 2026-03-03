@@ -1,0 +1,14 @@
+python-fasthtml
+monsterui
+claudette
+toolslm
+fastcore
+uvicorn
+networkx
+graphviz
+httpx
+html2text
+beautifulsoup4
+lxml
+tiktoken
+pymupdf
