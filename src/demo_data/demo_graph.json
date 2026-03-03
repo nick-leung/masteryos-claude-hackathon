@@ -1,0 +1,218 @@
+{
+  "timestamp": "2026-03-03T00:19:04+0000",
+  "method": "review_graph",
+  "inputs": {
+    "existing_concept_count": 20,
+    "chunk_count": 4
+  },
+  "response": {
+    "concepts": [
+      {
+        "id": "spaced-repetition",
+        "name": "Spaced Repetition",
+        "description": "An evidence-based learning technique usually performed with flashcards that exploits the psychological spacing effect by showing newly introduced and more difficult flashcards more frequently, while older and less difficult flashcards are shown less frequently. The method involves presenting information at increasing time intervals to move information into long-term memory. If a subject recalls information correctly, the time interval is doubled; if they fail, they return to the previous step. The technique has been proven to increase the rate of learning and is well-suited for vocabulary acquisition in second-language learning and other domains requiring retention of many items indefinitely.",
+        "prerequisites": [],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "spacing-effect",
+        "name": "Spacing Effect",
+        "description": "A psychological principle that spaced repetition exploits. The spacing effect refers to the phenomenon where distributing learning over time (spacing) produces better long-term retention than massed practice. This is the underlying psychological mechanism that makes spaced repetition effective for memory retention.",
+        "prerequisites": [],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "forgetting-curve",
+        "name": "Forgetting Curve",
+        "description": "A graph created by Hermann Ebbinghaus in the 1880s that portrays the loss of learned information over time. Ebbinghaus postulated that the forgetting curve can be curbed by reviewing information at several intervals over a period of time. This foundational concept demonstrates why spaced repetition is necessary to combat natural memory decay.",
+        "prerequisites": [
+          "spacing-effect"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "leitner-system",
+        "name": "Leitner System",
+        "description": "A simple, all-purpose spaced repetition learning system based on flashcards, devised by Sebastian Leitner in 1973. Flashcards are sorted into groups (boxes) according to how well the learner knows each one. Correctly answered cards are advanced to the next, less frequent box, while incorrectly answered cards return to the first box for more aggressive review. In Leitner's original method, the schedule of repetition was governed by the size of partitions in the learning box (1, 2, 5, 8, and 14 cm). Cards are only reviewed when a partition becomes full. This system uses five levels and an arbitrary number of study stages.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "expanding-intervals",
+        "name": "Expanding Intervals",
+        "description": "A spaced repetition scheduling method where the interval between repetitions increases with each repetition. Research indicates that expanding intervals yield a greater percentage of accuracy at test points because with each expanded interval, retrieval becomes more difficult due to time elapsed, creating deeper processing of learned information in long-term memory. However, meta-analyses suggest both expanding and uniform intervals yield similar long-term results. The benefit may derive from factors like timing of the first retrieval and number of repetitions rather than the expansion itself.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "uniform-retrieval-schedule",
+        "name": "Uniform Retrieval Schedule",
+        "description": "A form of spaced repetition procedure where items are reviewed at consistent, equally-spaced intervals rather than expanding intervals. Although expanding retrieval is commonly associated with spaced repetition, uniform retrieval schedules are also recognized as effective spaced repetition procedures. Meta-analyses suggest uniform spacing enhances long-term retention comparably to expanding intervals.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "testing-effect",
+        "name": "Testing Effect",
+        "description": "A learning phenomenon where retrieving information through testing improves long-term memory. The testing effect can be combined with spaced repetition to improve long-term memory retention, making memorization easier. This principle underlies why spaced repetition systems use retrieval practice (testing) at spaced intervals.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "graduated-interval-recall",
+        "name": "Graduated-Interval Recall",
+        "description": "A type of spaced repetition published by Paul Pimsleur in 1967, used in the Pimsleur language learning system. It is particularly suited to programmed audio instruction due to very short times (measured in seconds or minutes) between the first few repetitions, compared to other forms of spaced repetition. Pimsleur's published intervals were: 5 seconds, 25 seconds, 2 minutes, 10 minutes, 1 hour, 5 hours, 1 day, 5 days, 25 days, 4 months, and 2 years.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "face-name-association",
+        "name": "Face-Name Association",
+        "description": "A specific application of spaced repetition tested by Thomas Landauer and Robert A. Bjork in 1978. Participants were shown pictures of individuals followed by those individuals' names. Through repetition of seeing the person's name and face with expansion of time due to spaced repetition, participants were able to associate the name and face of individuals. This demonstrates spaced repetition's effectiveness for learning associations between visual and semantic information.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "spaced-repetition-memory-disorders",
+        "name": "Spaced Repetition for Memory Disorders",
+        "description": "Application of spaced repetition to patients with memory impairments, amnesia, and dementia. Research by Schacter, Rich, and Stampp (1985) showed spaced repetition helps not only students with name-face association but also patients with memory disorders. Studies with Alzheimer's and dementia patients found they could recall information weeks or even months later. The technique has been successful in helping dementia patients remember object names, daily tasks, name-face associations, and personal information. C.J. Camp (1989) found the technique may increase duration of remembering in Alzheimer's patients.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "recovery-practice",
+        "name": "Recovery Practice",
+        "description": "A technique used to assess whether an individual can recall something immediately after they have seen or studied it. Increasing recovery practice is frequently used as a technique in improving long-term memory, particularly for young children learning and older individuals with memory diseases. It serves as a diagnostic and training tool within spaced repetition frameworks.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "spaced-repetition-math-learning",
+        "name": "Spaced Repetition for Math Problem Solving",
+        "description": "Application of spaced repetition beyond simple factual/semantic information to procedural and conceptual learning. A study by Pashler, Rohrer, Cepeda, and Carpenter showed that participants learning a simple math principle in a spaced retrieval schedule showed higher scores on a final test than those in massed retrieval. This demonstrates spaced repetition can be used in fields requiring manipulation and use of particular principles or formulas (e.g., y = mx + b), not just memorization of facts.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "spaced-repetition-procedural-skills",
+        "name": "Spaced Repetition for Procedural Skill Acquisition",
+        "description": "Application of spaced repetition to complex procedural domains such as surgical training. A pilot study in neurosurgery training found that incorporating spaced repetition into a six-week simulation module improved residents' proficiency in performing complex surgical procedures. Participants who engaged in structured, repeated practice showed significant improvements in objective performance metrics compared to those using traditional training methods alone. This extends spaced repetition's applicability to procedural knowledge in medical training contexts.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "spaced-repetition-software",
+        "name": "Spaced Repetition Software (SRS)",
+        "description": "Computer-based implementations of spaced repetition that emerged in the 1980s with increased access to personal computers. Most SRS is modeled after manual flashcard learning: items are entered as question-answer pairs, and when due for review, the question is displayed and the user attempts to answer. After answering, the user reveals the answer and tells the program how difficult it was. The program then schedules pairs based on spaced repetition algorithms. Software enables automated scheduling and statistic gathering, scaling to thousands of individually scheduled cards. Without computer programs, users must manually schedule physical flashcards, which is time-intensive and limits them to simple algorithms like the Leitner system.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "confidence-based-repetition",
+        "name": "Confidence-Based Repetition (CBR)",
+        "description": "A refinement in spaced repetition software where a user rates their confidence in each digital flashcard on a scale (e.g., 1-5). Lower-confidence cards are repeated more frequently until the user upgrades their confidence rating. This approach personalizes the spacing schedule based on subjective confidence rather than objective correctness alone.",
+        "prerequisites": [
+          "spaced-repetition-software"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "sm-family-algorithms",
+        "name": "SM Family of Algorithms",
+        "description": "A family of spaced repetition algorithms ranging from SM-0 (a paper-and-pencil prototype) to SM-18, built into SuperMemo 18 and 19. These algorithms represent an evolution of computational approaches to optimizing spaced repetition scheduling, with each version incorporating refinements to the spacing algorithm.",
+        "prerequisites": [
+          "spaced-repetition-software"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "dash-algorithm",
+        "name": "DASH Algorithm",
+        "description": "A family of spaced repetition algorithms with the acronym standing for \"Difficulty, Ability and Study History.\" This algorithm family represents one of several computational approaches to optimizing spaced repetition scheduling by incorporating multiple factors about the learner and material.",
+        "prerequisites": [
+          "spaced-repetition-software"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "ssp-mmc-algorithm",
+        "name": "SSP-MMC Algorithm",
+        "description": "A spaced repetition scheduling algorithm with the acronym standing for \"Stochastic Shortest Path Minimize Memorization Cost.\" This algorithm represents a computational approach to optimizing spaced repetition scheduling using stochastic methods.",
+        "prerequisites": [
+          "spaced-repetition-software"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "fsrs-algorithm",
+        "name": "FSRS (Free Spaced Repetition Scheduler)",
+        "description": "A spaced repetition scheduling algorithm closely related to SSP-MMC (Stochastic Shortest Path Minimize Memorization Cost). FSRS is available in Anki starting with release 23.10 and in RemNote starting with release 1.16. It represents a modern approach to optimizing spaced repetition scheduling using stochastic methods.",
+        "prerequisites": [
+          "spaced-repetition-software"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "predictive-modeling-spaced-repetition",
+        "name": "Predictive Modeling in Spaced Repetition Algorithms",
+        "description": "A development in spaced repetition algorithms that focuses on optimizing review schedules through predictive modeling. These algorithms use randomly determined equations to determine the most effective timing for review sessions. This approach allows software to adjust repetition spacing intervals dynamically to help users reach target achievement levels (e.g., 90% of all material correctly recalled at any given time point), with material difficulty defined by the ease with which users produce correct responses.",
+        "prerequisites": [
+          "spaced-repetition-software"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      },
+      {
+        "id": "working-memory-spaced-repetition",
+        "name": "Working Memory and Spaced Repetition Benefits",
+        "description": "Research by Bui et al. (2013) examining how individual differences in working memory capacity influence spaced repetition effectiveness. The study found that participants with higher working memory benefited more from spaced repetition and showed better performance on challenging tasks. This indicates that the effectiveness of spaced repetition can be influenced by cognitive capacity differences between learners.",
+        "prerequisites": [
+          "spaced-repetition"
+        ],
+        "misconceptions": [],
+        "code_examples": []
+      }
+    ]
+  }
+}
